@@ -1,0 +1,25 @@
+.messenger {
+    display: flex;
+    position: relative;
+    width: 80%;
+    height: 500px;
+    background-color: #f0f0f0;
+    margin-left: 15px;
+    border-radius: 4px;
+}
+.friend {
+    padding: 15px 200px 15px 15px ;
+    border-right: 1px #000 solid;
+}
+.massage{
+    padding: 15px 15px;
+
+}
+.textareaContainer {
+    position: absolute;
+    bottom: 15px;
+}
+.textarea{
+ width: 500px;
+
+}

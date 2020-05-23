@@ -1,0 +1,35 @@
+.header {
+    background: linear-gradient(140deg, #1CB5E0 0%, #000851 100%);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.wrapper {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+  }
+.search {
+    
+   
+}
+.searchInput {
+  width: 300px;
+  height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 15px;
+  background-color:  #f0f0f0;
+  outline: none;
+  color: #2d2d2d;
+}
+.logo {
+  color: #fff;
+}
+.loginBlock{
+    color: #f0f0f0;
+}

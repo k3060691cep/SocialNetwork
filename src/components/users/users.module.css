@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 900px;
+    background-color: #f0f0f0;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+.items {
+
+    display: flex;
+    flex-grow: 1;
+    margin: 10px 10px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 10px 25px -10px rgba(0,0,0,0.37);
+    -moz-box-shadow: 1px 10px 25px -10px rgba(0,0,0,0.37);
+    box-shadow: 1px 10px 25px -10px rgba(0,0,0,0.37);
+
+}
+.info {
+
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 10px;
+
+}
+.usersPhoto{
+
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+}
+.button {
+    background: rgb(34,91,195);
+    background: linear-gradient(0deg, rgba(34,91,195,1) 0%, rgba(45,143,253,1) 100%);
+    border-radius: 4px;
+    margin: 10px 0px;
+    padding: 5px 5px;
+    width: 100%;
+    border: none;
+}
+.button:hover {
+    background: rgb(34,91,195);
+    background: linear-gradient(0deg, rgba(34,91,195,1) 0%, rgb(17, 110, 253) 100%);
+}
+.button:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0.3;
+}
+.button:disabled {
+    color: #fff;
+    background: black;
+    background-size: 100%;
+
+}
+.containerIco{
+    background-color: #ffffff;
+    padding: 10px 10px;
+
+}
+.selectedPage {
+    box-sizing: border-box;
+    background-color: #6d6d6d;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+span {
+    border: 1px #000000 solid;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.choisePage{
+    border: 1px #000000 dashed;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+}

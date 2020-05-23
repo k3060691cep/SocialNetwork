@@ -1,0 +1,14 @@
+.posItem {
+  margin-top: 15px;
+  padding: 10px 10px;
+  margin-left: 15px;
+
+}
+.pos {
+  width: 100%;
+  margin-left: 15px;
+  margin-top: 15px;
+  background-color: #f0f0f0;
+  padding: 10px 10px;
+  border-radius: 4px;
+}
